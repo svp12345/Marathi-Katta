@@ -1,0 +1,465 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding:0;
+    font-family: sans-serif;
+    top:0%;
+}
+.site_title1 .option{
+    text-align: right;
+    line-height: 80px;
+    padding left:30px;
+    padding right: 20px;
+}
+.site_title1 .option ul{
+    list-style-type: none;
+}
+.site_title1 .option ul li{
+    display:contents;
+    padding: 5%;
+    text-align: right;
+}
+.site_title1 .option ul li a{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+    font-family: cursive;
+}
+.site_title1 .option ul li a:hover{
+    color: white;
+}
+.btn1{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 20px 50px;
+    margin: 20px 40px;
+    border-radius: 0px;
+    transition: background 0.5s;
+    margin-left: 350px;
+    margin-top:30px;
+    text-decoration: none;
+}
+.contain{
+    background-image: url(../images/vada1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-size:1400px 800px ;
+    width: 100%;
+    height: 650px;
+    background-blend-mode: darken;
+}
+.site_title2 h1 a{
+    color:orange;
+    font-size: 45px;
+    padding-top: 0px;
+    font-family:cursive;
+    text-decoration: none;
+}
+.site_title2{
+    position: absolute;
+    top:0%;
+    left: 1%;
+    z-index: 2;
+    padding-left: 35px;
+}
+.site_title1{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    z-index: 2;
+    font-family: sans-serif;
+    padding-right: 25px;
+}
+.site_title{
+    position: absolute;
+    top:40%;
+    left: 20%;
+    z-index: 2;
+    font-family: sans-serif;
+}
+.site_title h1{
+    font-size: 80px;
+    color:aliceblue;
+    text-align:center;
+    margin:0;
+    font-family:monospace;
+}
+.site_title p{
+    font-size: 50px;
+    color: lawngreen;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    left: 25%;
+    font-display: block;
+    font-weight: 500;
+    font-family: cursive;
+}
+.overlay{
+    background:#0000008a;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.contain1{
+    position: relative;
+    width: 1300px;
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    height: 620px;
+}
+.contain1 .cl1{
+    width: 200px;
+}
+.contain1 .cl1 img{
+    padding-left: 20px;
+    padding-top: 80px;
+}
+.contain1 .para{
+    padding-left: 550px;
+    padding-right: 45px;
+}
+.contain1 .para h1{
+    margin: 0px;
+    padding-top: 25px;
+    font-size: 45px;
+    color:orange;
+}
+.contain1 .para p{
+    margin: 0px;
+    padding: 15px 0 0;
+    text-align: justify;
+    font-size: 18px;
+    font-family: cursive;
+}
+.serve{
+    background: url(../images/bl.jpg);
+    background-size: cover;
+}
+.inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+    height: 650px;
+}
+.head{
+    text-align: center;
+    color: orange;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.border{
+    width: 170px;
+    height: 3px;
+    background:white;
+    margin:10px auto;
+}
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-box{
+    max-width: 30%;
+    padding-top: 80px;
+    padding-left: 20px;
+    text-align: center;
+    color: orange;
+    cursor: pointer;
+}
+.service-icon{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    border: 3px solid orange;
+    color: white;
+    transform: rotate(45deg);
+    margin-bottom: 30px;    
+    margin-top: 25px;
+    transition: 0.3s linear;
+}
+.service-icon i{
+    line-height: 140px;
+    transform: rotate(-45deg);
+    font-size: 37px;
+}
+.service-box:hover .service-icon{
+    background: white;
+    color: orange;
+}
+.service-title{
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.service-desc{
+    font-size: 20px;
+    color: white;
+}
+.small-container{
+    max-width: 2000px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col4{
+    flex-basis: 30%;
+    padding: 0px;
+    min-width: 200px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+    background-color: white;
+    box-shadow: 10px 10px 3px white;
+}
+.col4 img{
+    width: 100%;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin: auto 80px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 35px;
+    color:midnightblue;
+}
+h4{
+    color:black;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.col4 p{
+font-size: 18px;
+font-weight: bold; 
+text-align: right;
+padding-top: 2px;
+    margin: auto;
+    padding-right: 15px;
+}
+.ratings{
+    color:black;
+    padding: 15px
+}
+.col4:hover{
+    transform: translateY(-10px);
+    background: gold;
+}
+
+.btn2{
+     display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 0px;
+    transition: background 0.5s;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: orange;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact{
+    position: relative;
+    min-height: 80vh;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+}
+.contact .container{
+    min-width: 800px;
+    text-align: center;
+}
+.contact .container h1{
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 10px;
+    color: orange;
+    padding-bottom: 10px;
+}
+.contact .content p{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 0px;
+}
+.content{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.content .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.content .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.content .contactinfo .box .icon{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 18px;
+}
+.content .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: aliceblue;
+    flex-direction: column;
+    font-weight: 300;
+}
+.content .contactinfo .box .text h3{
+    font-weight: 200;
+    color: orange;
+    font-size: 25px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+}
+.contactform{
+    width: 40%;
+    height: 450px;
+    padding: 40px;
+    background: #fff;
+}
+.contactform h2{
+    font-size:35px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 18px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]{
+    width: 120px;
+    background: orange;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 150px;
+}
+.footer{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    bottom:0;
+  width: 100%;
+  color: white;
+  text-align: center;
+    height: 50px;
+}
+.footer p{
+    font-size: 15px;
+    line-height: 2px;
+    padding-top: 10px;
+}
+.footer a{
+    color:white;
+    text-decoration: none;
+      padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
